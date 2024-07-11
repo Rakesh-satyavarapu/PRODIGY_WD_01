@@ -1,0 +1,77 @@
+nav
+{
+background-color: black;
+}
+#home 
+{
+    background-image: url("C:/Users/rakesh/OneDrive/Desktop/background.jpg");
+    background-size: cover;
+}
+div .welcome
+{
+    height:60vh;
+    font-size:180px;
+    color:ghostwhite;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link:hover, .nav-item:hover
+{
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes colorChange
+{
+    0%
+    {
+        color: darkblue;
+    }
+    33%
+    {
+        color: crimson;
+    }
+    66%
+    {
+        color:darkgreen;
+    }
+    100%
+    {
+        color:chartreuse;
+    }
+}
+#contactframe
+{
+    background-color: black;
+    width:auto;
+}
+#ContactInformation
+{
+    float:right;
+    color:ghostwhite;
+}
+#phnum
+{
+    color:rgb(115, 5, 52);
+}
+#services
+{
+    background-color: black;
+}
+
+.service
+{
+    color:ghostwhite;
+    font-family: serif;
+    text-align: center;
+}
+.about,.signUp
+{
+    color:black;
+    font-family: serif;
+    text-align: center; 
+}
